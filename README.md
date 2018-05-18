@@ -1,37 +1,102 @@
 # vue-view-lazy
 
-#### 项目介绍
-基于vue的懒加载插件,图片或者其他资源进入可视区域后加载
 
-#### 软件架构
-软件架构说明
+基于vue的懒加载插件
 
+> 目的：图片或者其他资源进入可视区域后加载
 
-#### 安装教程
+## 安装使用
 
-1. xxxx
-2. xxxx
-3. xxxx
+1. 直接下载`dist`目录下的[vue-view-lazy.min.js](https://gitee.com/cncgx/vue-view-lazy/blob/master/dist/vue-view-lazy.min.js)使用
+2. 使用npm安装
+### npm:
+``` bash
+$ npm install --save-dev vue-view-lazy
+```
+### 引入vue-view-lazy
+.main文件
+``` html
+import vView from 'vue-view-lazy'
+Vue.use(vView,{
+    error:'../../static/images/loading.png',
+    loading:'../../static/images/loading.gif',
+});
+```
+### 懒加载图片
+.vue文件
+``` html
+<template>
+    <ul id='img'>
+        <li class="in" v-for="(item,i) in imgs" :key="i">
+            <img src="#" alt="图片" v-view-lazy="item.src">
+        </li>
+    </ul>
+</template>
 
-#### 使用说明
+<script>
+    export default {
+        data () {
+            return {
+                msg: 'Welcome to Your Vue.js App',
+                imgs:[
+                    {src:'../../static/images/img1.jpg'},
+                    {src:'../../static/images/img2.png'},
+                    {src:'../../static/images/img2.jpg'},
+                    {src:'../../static/images/img3.jpg'},
+                    {src:'../../static/images/img4.jpg'},
+                    {src:'../../static/images/img5.jpeg'},  
+                ]
+            }
+        },
+        mounted(){
+        },
+    }
+</script>
+<style scoped>
+    ...
+</style>
+```
+### 懒加载数据
+.vue文件
+``` html
+<template>
+    <div>
+        <!--@model自定义事件是在该dom在第一次出现在视口内时触发的方法-->
+        <!--v-view-lazy='method' 或 v-view-lazy='(e)=>method(e,...arg)'-->
+        <div  class="cnt" v-for="(v,i) in msg" :key="i" v-view-lazy @model="(e)=>getAjaxContent(e,v.msg)">
+            loading...
+        </div>
+        <div  class="cnt" v-for="(v,i) in msg" :key="i" v-view-lazy @model="getAjaxContent()">
+            loading...
+        </div>
+    </div>
+</template>
 
-1. xxxx
-2. xxxx
-3. xxxx
+<script>
+    export default {
+        data(){
+            return{
+                msg:[]
+            }
+        },
+        mounted(){
+            fetch('http://localhost:3000/test').then(res=>res.json()).then(res=>{
+                this.msg = res;
+            })
+        },
+        methods:{
+            getAjaxContent(event,msg){
+                event.innerText = msg
+            },
+        }
+    }
+</script>
 
-#### 参与贡献
-
-1. Fork 本项目
-2. 新建 Feat_xxx 分支
-3. 提交代码
-4. 新建 Pull Request
-
-
-#### 码云特技
-
-1. 使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2. 码云官方博客 [blog.gitee.com](https://blog.gitee.com)
-3. 你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解码云上的优秀开源项目
-4. [GVP](https://gitee.com/gvp) 全称是码云最有价值开源项目，是码云综合评定出的优秀开源项目
-5. 码云官方提供的使用手册 [http://git.mydoc.io/](http://git.mydoc.io/)
-6. 码云封面人物是一档用来展示码云会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+<style scoped>
+    .cnt {
+        /*background: #ececec;*/
+        height: 500px;
+        margin-bottom: 50px;
+    }
+</style>
+```
