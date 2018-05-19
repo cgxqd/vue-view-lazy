@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d773cc6-200d-4ec0-8feb-5bee9b6e3834" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,39 +19,19 @@
       <file leaf-file-name="vue-view-lazy.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/vue-view-lazy.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
+            <state relative-caret-position="0">
               <caret line="19" column="72" lean-forward="false" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="280">
-              <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+              <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="240">
-                <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-                <folding>
-                  <marker date="1526711010467" expanded="true" signature="222:280" ph="..." />
-                  <marker date="1526711010467" expanded="true" signature="417:656" ph="..." />
-                  <marker date="1526711010467" expanded="true" signature="466:646" ph="{&quot;el&quot;: '##app'...}" />
-                  <marker date="1526711010467" expanded="true" signature="500:532" ph="{&quot;msg&quot;: '数据'...}" />
-                  <marker date="1526711010467" expanded="true" signature="550:639" ph="{...}" />
-                  <marker date="1526711010467" expanded="true" signature="577:628" ph="{...}" />
-                </folding>
-              </first_editor>
-              <second_editor />
             </state>
           </provider>
         </entry>
@@ -216,18 +195,18 @@
       <workItem from="1526623373000" duration="2380000" />
       <workItem from="1526698465658" duration="44000" />
       <workItem from="1526705926445" duration="2614000" />
-      <workItem from="1526710944786" duration="89000" />
+      <workItem from="1526710944786" duration="238000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9268000" />
+    <option name="totallyTimeSpent" value="9417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23867229" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23867229" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -272,12 +251,12 @@
           <first_editor relative-caret-position="360">
             <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="8" selection-end-line="18" selection-end-column="8" />
             <folding>
-              <marker date="1526711010467" expanded="true" signature="222:280" ph="..." />
-              <marker date="1526711010467" expanded="true" signature="417:656" ph="..." />
-              <marker date="1526711010467" expanded="true" signature="466:646" ph="{&quot;el&quot;: '##app'...}" />
-              <marker date="1526711010467" expanded="true" signature="500:532" ph="{&quot;msg&quot;: '数据'...}" />
-              <marker date="1526711010467" expanded="true" signature="550:639" ph="{...}" />
-              <marker date="1526711010467" expanded="true" signature="577:628" ph="{...}" />
+              <marker date="1526711169863" expanded="true" signature="228:294" ph="..." />
+              <marker date="1526711169863" expanded="true" signature="443:734" ph="..." />
+              <marker date="1526711169863" expanded="true" signature="500:720" ph="{&quot;el&quot;: '##app'...}" />
+              <marker date="1526711169863" expanded="true" signature="542:582" ph="{&quot;msg&quot;: '数据'...}" />
+              <marker date="1526711169863" expanded="true" signature="604:709" ph="{...}" />
+              <marker date="1526711169863" expanded="true" signature="635:694" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
@@ -428,16 +407,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/vue-view-lazy.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
+        <state relative-caret-position="0">
           <caret line="19" column="72" lean-forward="false" selection-start-line="19" selection-start-column="72" selection-end-line="19" selection-end-column="72" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
           <folding />
         </state>
       </provider>
@@ -446,17 +417,25 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="240">
-            <caret line="11" column="2" lean-forward="false" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
             <folding>
-              <marker date="1526711010467" expanded="true" signature="222:280" ph="..." />
-              <marker date="1526711010467" expanded="true" signature="417:656" ph="..." />
-              <marker date="1526711010467" expanded="true" signature="466:646" ph="{&quot;el&quot;: '##app'...}" />
-              <marker date="1526711010467" expanded="true" signature="500:532" ph="{&quot;msg&quot;: '数据'...}" />
-              <marker date="1526711010467" expanded="true" signature="550:639" ph="{...}" />
-              <marker date="1526711010467" expanded="true" signature="577:628" ph="{...}" />
+              <marker date="1526711169863" expanded="true" signature="228:294" ph="..." />
+              <marker date="1526711169863" expanded="true" signature="443:734" ph="..." />
+              <marker date="1526711169863" expanded="true" signature="500:720" ph="{&quot;el&quot;: '##app'...}" />
+              <marker date="1526711169863" expanded="true" signature="542:582" ph="{&quot;msg&quot;: '数据'...}" />
+              <marker date="1526711169863" expanded="true" signature="604:709" ph="{...}" />
+              <marker date="1526711169863" expanded="true" signature="635:694" ph="{...}" />
             </folding>
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="14" column="8" lean-forward="false" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>

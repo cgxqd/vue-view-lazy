@@ -9,27 +9,29 @@
 
 1. 直接下载`dist`目录下的[vue-view-lazy.min.js](https://gitee.com/cncgx/vue-view-lazy/blob/master/dist/vue-view-lazy.min.js)使用
 2. 使用npm安装
+
+
 ##直接使用
 ```html
-<div id="app">
-    <span v-view-lazy @model="handleModel"></span>
-</div>
-<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
-<script src="./dist/vue-view-lazy.min.js"></script>
-<script>
-    Vue.use(vViewLazy.default,{});
-    new Vue({
-        el:'#app',
-        data:{
-            msg:'数据'
-        },
-        methods:{
-            handleModel(){
-                console.log('出现了');
+    <div id="app">
+        <span v-view-lazy @model="handleModel"></span>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="./dist/vue-view-lazy.min.js"></script>
+    <script>
+        Vue.use(vViewLazy.default,{});
+        new Vue({
+            el:'#app',
+            data:{
+                msg:'数据'
             },
-        },
-    })
-</script>
+            methods:{
+                handleModel(){
+                    console.log('出现了');
+                },
+            },
+        })
+    </script>
 ```
 ### npm:
 ``` bash
