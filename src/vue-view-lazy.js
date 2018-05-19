@@ -16,7 +16,11 @@ export default {
                             bind.value.call(el, vnode)//处理函数(建议处理异步请求的函数) use: v-view-lazy='e=>fu(e)'
                         }
                         else {
-                            vnode.data.on.model.call(el, vnode.elm);
+                            try{
+                                vnode.data.on.model.call(el, vnode.elm);
+                            }catch(e){
+                                console.warn('希望使用@model自定义事件')
+                            }
                         }
 
                     } else if (change[0].intersectionRatio <= 0 && el.dataset.view === 'false') {
