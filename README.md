@@ -9,7 +9,7 @@
 
 1. 直接下载`dist`目录下的[vue-view-lazy.min.js](https://gitee.com/cncgx/vue-view-lazy/blob/master/dist/vue-view-lazy.min.js)使用
 2. 使用npm安装
-###直接使用
+##直接使用
 ```html
 <div id="app">
     <span v-view-lazy @model="handleModel"></span>
