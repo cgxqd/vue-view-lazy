@@ -15,14 +15,11 @@ export default {
                         else if (bind.value && bind.value.constructor.name === 'Function') {
                             bind.value.call(el, vnode)//处理函数(建议处理异步请求的函数) use: v-view-lazy='e=>fu(e)'
                         }
-                        else {
-                            try{
+                        else try{
                                 vnode.data.on.model.call(el, vnode.elm);
                             }catch(e){
                                 console.warn('希望使用@model自定义事件')
                             }
-                        }
-
                     } else if (change[0].intersectionRatio <= 0 && el.dataset.view === 'false') {
                         el.src = loadingImg;
                     }

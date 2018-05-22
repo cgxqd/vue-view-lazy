@@ -1,9 +1,13 @@
 # vue-view-lazy
+原文链接：[gitee.com](https://gitee.com/cncgx/vue-view-lazy)
 
 
 基于vue的懒加载插件
 
 > 目的：图片或者其他资源进入可视区域后加载
+## 注意
+ >该插件依赖`IntersectionObserver API`，如需在较低版本浏览器运行，需要引入 polyfill
+
 
 ## 安装使用
 

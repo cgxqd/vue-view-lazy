@@ -1,6 +1,6 @@
 {
   "name": "vue-view-lazy",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "基于vue的懒加载插件,图片或者其他资源进入可视区域后加载",
   "main": "index.js",
   "scripts": {
@@ -12,11 +12,16 @@
     "vue",
     "lazy",
     "vue-view",
+    "vue-lazy",
     "vue-view-lazy",
     "IntersectionObserver"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/cncgx/vue-view-lazy.git"
+  },
   "author": "cgx",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-loader": "^7.1.4",
