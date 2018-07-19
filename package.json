@@ -1,6 +1,6 @@
 {
   "name": "vue-view-lazy",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "基于vue的懒加载插件,图片或者其他资源进入可视区域后加载",
   "main": "index.js",
   "scripts": {
